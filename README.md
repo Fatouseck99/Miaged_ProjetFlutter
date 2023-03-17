@@ -62,6 +62,7 @@ Une fois connecté, l’utilisateur arrive sur cette page composée du contenu p
   - L'utilisateur enseigne une adresse mail, un mot de passe et une confirmation du mot de passe.
   - Si l'utilisateur remplis correctement les champs et que le mot de passe et asser securisé, le compte et enregistrer en base de donnée.
   - Ajout de message type "pop-up" (ex: lorsque les identifiants sont incorrects, lors de l'ajout dans le panier).
+   - Utilisation d'un DatePicker pour modifier la date de naissance en selectionnant directiment. 
   - Champs supplementaire pour les produits (ex: état du produit).
-  - Utilisation d'un DatePicker pour modifier la date de naissance en selectionnant directiment. 
+ 
 
