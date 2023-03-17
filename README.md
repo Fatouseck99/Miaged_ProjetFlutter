@@ -57,11 +57,11 @@ Une fois connecté, l’utilisateur arrive sur cette page composée du contenu p
 
 ### Laisser libre cours à votre imagination
 
- Apporter une mise en forme à l'application.
- Ajout d'une page de creation de compte
- L'utilisateur enseigne une adresse mail, un mot de passe et une confirmation du mot de passe.
- Si l'utilisateur remplis correctement les champs et que le mot de passe et asser securisé, le compte et enregistrer en base de donnée.
- Ajout de message type "pop-up" (ex: lorsque les identifiants sont incorrects, lors de l'ajout dans le panier).
- Champs supplementaire pour les produits (ex: état du produit).
- Utilisation d'un DatePicker pour modifier la date de naissance en selectionnant directiment. 
+  - Apporter une mise en forme à l'application.
+  - Ajout d'une page de creation de compte
+  - L'utilisateur enseigne une adresse mail, un mot de passe et une confirmation du mot de passe.
+  - Si l'utilisateur remplis correctement les champs et que le mot de passe et asser securisé, le compte et enregistrer en base de donnée.
+  - Ajout de message type "pop-up" (ex: lorsque les identifiants sont incorrects, lors de l'ajout dans le panier).
+  - Champs supplementaire pour les produits (ex: état du produit).
+  - Utilisation d'un DatePicker pour modifier la date de naissance en selectionnant directiment. 
 
