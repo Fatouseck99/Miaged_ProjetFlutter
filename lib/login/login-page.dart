@@ -1,3 +1,4 @@
+import 'package:appli_miaged/login/register.dart';
 import 'package:appli_miaged/screen/acheter.dart';
 import 'package:flutter/material.dart';
 import 'package:appli_miaged/login/auth.dart';
@@ -97,6 +98,7 @@ class _LoginPageState extends State<LoginPage> {
                       onPrimary: Colors.white,
                     ),
 
+
                     child: Text('Se connecter'),
                     onPressed: () async {
                       if (_formKey.currentState!.validate()) {
@@ -115,11 +117,23 @@ class _LoginPageState extends State<LoginPage> {
                       }
                     },
                   ),
+
                   SizedBox(height: 12.0),
                   Text(
                     error,
                     style: TextStyle(color: Colors.red, fontSize: 14.0),
-                  )
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => RegisterPage(),
+                        ),
+                      );
+                    },
+                    child: const Text('Pas de compte ? Inscriviez-vous ici'),
+                  ),
                 ],
               ),
             ),
