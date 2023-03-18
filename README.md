@@ -9,7 +9,8 @@
   <img src="./images/panier.png" width="200" />
   <img src="./images/profil.png" width="200" />
 </p>
-# Travail effectué
+
+## Travail effectué
 ### Interface de login : Critère d’acceptance
 
 Au lancement de l’application, une interface de login composée d’un headerBar qui contient le nom de l’application, de deux champs et d’un bouton m’est proposée.
